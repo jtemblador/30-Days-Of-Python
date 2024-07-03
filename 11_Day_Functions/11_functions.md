@@ -313,9 +313,9 @@ def generate_full_name (first_name = 'Asabeneh', last_name = 'Yetayeh'):
 print(generate_full_name())
 print(generate_full_name('David','Smith'))
 
-def calculate_age (birth_year,current_year = 2021):
+def calculate_age (birth_year,current_year = 2024):
     age = current_year - birth_year
-    return age;
+    return age
 print('Age: ', calculate_age(1821))
 
 def weight_of_object (mass, gravity = 9.81):
